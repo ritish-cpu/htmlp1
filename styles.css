@@ -1,0 +1,77 @@
+                /* Reset some default styles */
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+
+                body {
+                    font-family: 'Roboto', sans-serif;
+                    line-height: 1.6;
+                    background-color: #e9ecef;
+                    color: #333;
+                }
+
+                header {
+                    background: #91b946;
+                    color: #130535;
+                    padding: 20px 0;
+                    text-align: center;
+                }
+
+                h1 {
+                    margin-bottom: 10px;
+                    font -size: 2.5em;
+                }
+
+                nav ul {
+                    list-style: none;
+                }
+
+                nav ul li {
+                    display: inline;
+                    margin: 0 15px;
+                }
+
+                nav a {
+                    color: #ffffff;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                main {
+                    padding: 20px;
+                }
+
+                section {
+                    background: #cce89a;
+                    border-radius: 8px;
+                    padding: 15px;
+                    margin: 15px 0;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                }
+
+                h2 {
+                    color: #007bff;
+                    margin-bottom: 10px;
+                }
+
+                .profile-image {
+                    text-align: center;
+                }
+
+                .profile-image img {
+                    border-radius: 50%;
+                    width: 150px;
+                    height: 150px;
+                }
+
+                footer {
+                    text-align: center;
+                    padding: 10px 0;
+                    background: #eba5c4;
+                    color: #ffffff;
+                    position: relative;
+                    bottom: 0;
+                    width: 100%;
+                }
